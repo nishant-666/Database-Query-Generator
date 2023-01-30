@@ -37,7 +37,7 @@ function App() {
     setDB({ label: param.label, value: param.value });
     setValidation({ query: validations.query, db: true });
   };
-
+  console.log("aaa");
   const getQuery = (e: any) => {
     setCopySuccess(false);
     setQuery(e.target.value);
